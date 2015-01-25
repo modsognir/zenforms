@@ -1,0 +1,1 @@
+Lob.api_key = Rails.application.secrets.lob_key

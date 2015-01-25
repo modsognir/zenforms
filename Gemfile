@@ -22,6 +22,7 @@ gem 'dropzonejs-rails'
 gem 'simple_form'
 gem 'money'
 gem 'phony_rails'
+gem 'lob'
 
 group :development do
   gem 'spring'

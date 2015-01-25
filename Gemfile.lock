@@ -114,6 +114,9 @@ GEM
     letter_opener (1.2.0)
       launchy (~> 2.2)
     libv8 (3.16.14.7)
+    lob (1.8)
+      prawn
+      rest-client (~> 1.7.0)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
@@ -123,15 +126,20 @@ GEM
     money (6.4.0)
       i18n (>= 0.6.4, <= 0.7.0.beta1)
     multi_json (1.10.1)
+    netrc (0.10.2)
     nokogiri (1.6.4.1)
       mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
+    pdf-core (0.4.0)
     pg (0.17.1)
     phony (2.7.1)
     phony_rails (0.8.0)
       activesupport (>= 3.0)
       countries (>= 0.8.2)
       phony (~> 2.7.1)
+    prawn (1.3.0)
+      pdf-core (~> 0.4.0)
+      ttfunk (~> 1.4.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -171,6 +179,9 @@ GEM
     ref (1.0.5)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
+    rest-client (1.7.2)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
       rspec-expectations (~> 3.0.0)
@@ -240,6 +251,7 @@ GEM
     tilt (1.4.1)
     timecop (0.7.1)
     timers (1.1.0)
+    ttfunk (1.4.0)
     twitter-bootstrap-rails (3.2.0)
       actionpack (~> 4.1)
       execjs (~> 2.2)
@@ -284,6 +296,7 @@ DEPENDENCIES
   launchy
   less-rails
   letter_opener
+  lob
   money
   pg
   phony_rails
